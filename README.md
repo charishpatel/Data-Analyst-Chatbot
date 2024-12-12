@@ -6,22 +6,22 @@ This app is a Chainlit-powered chatbot with two main modes: a Data Analyst and a
 ### Features
 Data Analyst Mode:
 
-    Upload a CSV or Excel file.
-    Get Python code to analyze your dataset.
-    Visualize data and save plots as images (img.png).
-    Get insights and explanations for the visualizations.
+** Upload a CSV or Excel file.
+** Get Python code to analyze your dataset.
+** Visualize data and save plots as images (img.png).
+** Get insights and explanations for the visualizations.
     
 General Bot Mode:
 
-Ask general questions, and the bot will provide helpful answers based on its knowledge.
+* Ask general questions, and the bot will provide helpful answers based on its knowledge.
 
 Requirements -
 
-Python 3.x
-pandas
-matplotlib
-openai
-chainlit
+    Python 3.x
+    pandas
+    matplotlib
+    openai
+    chainlit
 
 
 ### How to Run
@@ -33,21 +33,23 @@ open command prompt in folder
 
 For Python 3.x:
 
-hit command - python -m venv myenv
+write command
+
+    python -m venv myenv
 
 ### Activate the Environment:
 
-On Windows:
-myenv\Scripts\activate
+        
+    myenv\Scripts\activate
 
 ### Install Dependencies:
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 ### Set Your OpenAI API Key as environment:
 
-set OPENAI_API_KEY=your-api-key-here
+    set OPENAI_API_KEY=your-api-key-here
 
 ### Run the App:
 
-chainlit run main.py
+    chainlit run main.py
